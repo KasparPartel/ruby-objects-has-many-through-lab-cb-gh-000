@@ -1,4 +1,5 @@
 class Artist
+  attr_accessor :genres
   attr_reader :name
 
   def initialize(name)
@@ -13,5 +14,9 @@ class Artist
 
   def songs
     @songs
+  end
+
+  def genres
+    
   end
 end
